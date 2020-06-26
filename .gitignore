@@ -2,10 +2,8 @@
 .DS_Store
 
 # Build results
-*/**/bin/Debug
-*/**/bin/Release
-*/**/obj/Debug
-*/**/obj/Release
+src/*/**/bin
+src/*/**/obj
 
 # NuGet Packages
 *.nupkg
