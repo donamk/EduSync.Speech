@@ -17,7 +17,11 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/Users/shootingstar/RiderProjects/EduSync.Speech/src/EduSync.Speech.Domain/EduSync.Speech.Domain.csproj": {
+            "projectPath": "/Users/shootingstar/RiderProjects/EduSync.Speech/src/EduSync.Speech.Domain/EduSync.Speech.Domain.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

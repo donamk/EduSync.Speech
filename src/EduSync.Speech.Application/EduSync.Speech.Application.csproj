@@ -4,4 +4,8 @@
         <TargetFramework>netcoreapp3.1</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\EduSync.Speech.Domain\EduSync.Speech.Domain.csproj" />
+    </ItemGroup>
+
 </Project>
