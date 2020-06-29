@@ -1,7 +1,6 @@
 using System;
 using System.Threading.Tasks;
 using EduSync.Speech.Application.Exceptions;
-using EduSync.Speech.Application.Interfaces;
 using EduSync.Speech.Domain.Repository;
 using EduSync.Speech.Domain.SpeechAggregate;
 
@@ -34,9 +33,5 @@ namespace EduSync.Speech.Application.UseCases
             await _speechRepository.CreateAsync(speech);
             _unitOfWork.Commit();
         }
-    }
-
-    public interface IRegisterSpeechUseCase : ICommandHandler<RegisterSpeechCommandMessage>
-    {
     }
 }
